@@ -1,0 +1,19 @@
+name: flutter_mockkit_example
+description: Example app demonstrating the flutter_mockkit package.
+publish_to: none  # This is an example app, not published to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  http: ^1.2.0
+  flutter_mockkit:
+    path: ../  # References the local package one level up
+
+flutter:
+  uses-material-design: true
